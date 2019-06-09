@@ -1,6 +1,7 @@
 # bochs-emulator
 
-## https://defuse.ca/bochs-hacking-guide.htm
+## https://github.com/eshnil2000/littleosbook 
+#### https://defuse.ca/bochs-hacking-guide.htm
 ```
 sudo apt-get install bochs bochs-x
 sudo apt-get install xorg xauth xterm nasm
