@@ -26,6 +26,7 @@ sudo /etc/init.d/ssh restart
 sudo mkdir -p /home/nick
 sudo useradd nick
 sudo passwd nick
+sudo usermod -s /bin/bash nick
 sudo chown nick:nick /home/nick
 sudo usermod --home /home/nick nick
 login to server with:
