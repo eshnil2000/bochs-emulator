@@ -32,6 +32,12 @@ sudo usermod --home /home/nick nick
 login to server with:
 ssh -Y nick@ipaddress
 ```
+
+```
+wget http://distro.ibiblio.org/tinycorelinux/10.x/x86/release/TinyCore-current.iso
+wget http://distro.ibiblio.org/tinycorelinux/10.x/x86/release/Core-current.iso
+```
+
 ```
 bochs
 ```
