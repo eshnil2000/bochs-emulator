@@ -2,6 +2,7 @@
 
 ## https://github.com/eshnil2000/littleosbook 
 #### https://defuse.ca/bochs-hacking-guide.htm
+
 ```
 sudo apt-get install bochs bochs-x
 sudo apt-get install xorg xauth xterm nasm
@@ -11,9 +12,12 @@ sudo apt-get install xorg xauth xterm nasm
 sudo nano /etc/ssh/sshd_config
 
 ```
-  PasswordAuthentication yes
-	X11Forwarding yes
+
 ```
+PasswordAuthentication yes
+X11Forwarding yes
+```
+
 ```
 sudo mkdir -p /home/nick
 sudo useradd nick
