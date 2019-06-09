@@ -6,8 +6,10 @@
 sudo apt-get install bochs bochs-x
 sudo apt-get install xorg xauth xterm nasm
 ```
-```sudo nano /etc/ssh/sshd_config
+
 ```
+sudo nano /etc/ssh/sshd_config
+
 ```
   PasswordAuthentication yes
 	X11Forwarding yes
