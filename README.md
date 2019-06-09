@@ -3,6 +3,7 @@
 * https://github.com/eshnil2000/littleosbook 
 * https://defuse.ca/bochs-hacking-guide.htm
 * https://github.com/eshnil2000/os-tutorial
+* https://cntnr.io/running-guis-with-docker-on-mac-os-x-a14df6a76efc
 
 ### aws instance, use ubuntu t3.medium at minimum
 ```
