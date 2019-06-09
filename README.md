@@ -60,6 +60,10 @@ ata1: enabled=1, ioaddr1=0x170, ioaddr2=0x370, irq=15
 #ata1-master: type=cdrom, path="/home/nick/bochs/Core-current.iso", status=inserted
 ata1-master: type=cdrom, path="/home/nick/bochs/TinyCore-current.iso", status=inserted
 ```
+## To run program: 
+```
+bochs -f .bochsrc 
+```
 
 # To make an image:
 ```
