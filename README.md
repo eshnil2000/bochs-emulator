@@ -76,3 +76,7 @@ bximage
 ```
 nasm -f bin bssimple.asm -o bssimple.bin
 ```
+### To view contents of bin
+```
+od -t x1 -A n bssimple.bin
+```
