@@ -45,19 +45,20 @@ bochs
 # To customize, add a .bochsrc file
 ```nano .bochsrc ```
 ```
-megs: 256
+megs: 512
 romimage: file=/usr/share/bochs/BIOS-bochs-latest
 vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
-ata0-master: type=disk, path="c.img", mode=flat
+#ata0-master: type=disk, path="c.img", mode=flat
 boot: cdrom,disk
 log: bochsout.txt
 mouse: enabled=0
 clock: sync=realtime
 display_library: x
-
+cpu: count=1, ips=1000000000
 # CDROM
 ata1: enabled=1, ioaddr1=0x170, ioaddr2=0x370, irq=15
-ata1-master: type=cdrom, path="TinyCore-current.iso", status=inserted
+#ata1-master: type=cdrom, path="/home/nick/bochs/Core-current.iso", status=inserted
+ata1-master: type=cdrom, path="/home/nick/bochs/TinyCore-current.iso", status=inserted
 ```
 
 # To make an image:
