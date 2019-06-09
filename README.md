@@ -20,6 +20,9 @@ X11Forwarding yes
 ```
 
 ```
+sudo /etc/init.d/ssh restart
+```
+```
 sudo mkdir -p /home/nick
 sudo useradd nick
 sudo passwd nick
