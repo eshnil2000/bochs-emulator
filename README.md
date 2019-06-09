@@ -1,7 +1,8 @@
 # bochs-emulator
 
-## https://github.com/eshnil2000/littleosbook 
-#### https://defuse.ca/bochs-hacking-guide.htm
+* https://github.com/eshnil2000/littleosbook 
+* https://defuse.ca/bochs-hacking-guide.htm
+* https://github.com/eshnil2000/os-tutorial
 
 ```
 sudo apt-get install bochs bochs-x
