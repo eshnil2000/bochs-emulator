@@ -4,6 +4,7 @@
 * https://defuse.ca/bochs-hacking-guide.htm
 * https://github.com/eshnil2000/os-tutorial
 
+### aws instance, use ubuntu t3.medium at minimum
 ```
 sudo apt-get install bochs bochs-x
 sudo apt-get install xorg xauth xterm nasm
