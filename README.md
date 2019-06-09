@@ -69,3 +69,10 @@ bochs -f .bochsrc
 # To make an image:
 ```
 bximage
+```
+
+# To compile a simple boot sector, make sure input file name is not more than 8 characters long:
+* in dos, the file name would follow the ‘short name rule’, which in a ‘8.3’ format. file name can not over 8 characters long, and suffix can not be over 3 characters long. all space would be removed
+```
+nasm -f bin bssimple.asm -o bssimple.bin
+```
