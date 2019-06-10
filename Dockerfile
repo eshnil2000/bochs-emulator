@@ -1,7 +1,7 @@
 FROM ubuntu
 
-RUN apt-get update && apt-get install -y xterm bochs bochs-x xorg xauth nasm
-RUN apt-get update && apt-get install -y wget
+RUN apt-get update && apt-get install -y xterm bochs bochs-x xorg xauth nasm 
+RUN apt-get update && apt-get install -y wget build-essential
 #RUN useradd -ms /bin/bash xterm
 #USER xterm
 #WORKDIR /home/xterm
