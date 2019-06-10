@@ -99,3 +99,7 @@ ifconfig en0 (to find out etherenet ip)
 docker run -it -e DISPLAY=10.0.0.153:0 ubuntu /bin/bash
 ```
 
+# To compile c programs 
+* gcc -ffreestanding -c basic.c -o basic.o
+* objdump -d basic.o
+
