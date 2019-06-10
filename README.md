@@ -56,7 +56,7 @@ megs: 512
 romimage: file=/usr/share/bochs/BIOS-bochs-latest
 vgaromimage: file=/usr/share/bochs/VGABIOS-lgpl-latest
 #ata0-master: type=disk, path="c.img", mode=flat
-#floppya: 1_44=a.img, status=inserted
+#floppya: 1_44=/home/nick/a.bin, status=inserted
 boot: cdrom,disk
 log: bochsout.txt
 mouse: enabled=0
