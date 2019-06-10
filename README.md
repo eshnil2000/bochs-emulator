@@ -81,3 +81,15 @@ nasm -f bin bssimple.asm -o bssimple.bin
 ```
 od -t x1 -A n bssimple.bin
 ```
+
+# To run on mac
+```
+brew install socat
+socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+brew install xquartz
+open -a Xquartz (allow network connections from client)
+ifconfig en0 (to find out etherenet ip)
+==> Test docker run -e DISPLAY=192.168.0.235:0 gns3/xeyes
+docker run -it -e DISPLAY=10.0.0.153:0 ubuntu /bin/bash
+```
+
