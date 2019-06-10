@@ -5,6 +5,11 @@
 * https://github.com/eshnil2000/os-tutorial
 * https://cntnr.io/running-guis-with-docker-on-mac-os-x-a14df6a76efc
 
+# to run docker image:
+```
+docker pull eshnil2000/bochs-emulator
+docker run -it -e DISPLAY=10.0.0.153:0 --rm eshnil2000/bochs-emulator /bin/bash
+```
 ### aws instance, use ubuntu t3.medium at minimum
 ```
 sudo apt-get install bochs bochs-x
