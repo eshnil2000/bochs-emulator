@@ -100,6 +100,14 @@ docker run -it -e DISPLAY=10.0.0.153:0 ubuntu /bin/bash
 ```
 
 # To compile c programs 
-* gcc -ffreestanding -c basic.c -o basic.o
-* objdump -d basic.o
+```
+gcc -ffreestanding -c basic.c -o basic.o
+# dump intermediate object code
+objdump -d basic.o
+# raw machine code
+ld -o basic.bin -Ttext 0x0 --oformat binary basic.o
+# -Ttext 0x0, which works in the same way as the org directive we used in our earlier assembly routines, by allowing us to tell the compiler to offset label addresses in our code (e.g. for any data we specify in the code, such as strings like ‘‘Hello, World’’) 
+# disassembly
+ndisasm -b 32 basic.bin > basic.dis
+# The -b 32 simply tells the disassembler to decode to 32-bit assembly instructions
 
